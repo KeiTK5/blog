@@ -1,0 +1,30 @@
+.article .wrapper-article {
+  padding-bottom: 40px;
+}
+
+.article .wrapper-article .box-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 24px;
+}
+
+.article .wrapper-article .box-article .item-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.article .wrapper-article .box-article .item-article .item .description {
+  display: none;
+}
+
+.article .wrapper-article .box-article .item-article:last-child .item {
+  padding-right: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.popular .wrapper-popular {
+  padding-bottom: 40px;
+}
+
+.popular .wrapper-popular .box-popular {
+  padding-top: 24px;
+}
+
+.popular .wrapper-popular .box-popular .item-thump {
+  cursor: pointer;
+}
+
+.popular .wrapper-popular .box-popular .item-thump:hover .box-title {
+  color: #4db2ec;
+}
+
+.comment .wrapper-comment .box-comment {
+  padding-top: 24px;
+}
+
+.comment .wrapper-comment .box-comment .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.comment .wrapper-comment .box-comment .comment .cmt {
+  word-spacing: 2px;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 12px;
+}
+
+.comment .wrapper-comment .box-comment .comment .cmt span {
+  color: #767676;
+}
+
+.comment .wrapper-comment .box-comment .comment .cmt a {
+  font-style: italic;
+  color: #111;
+  font-weight: 600;
+}
+
+.comment .wrapper-comment .box-comment .comment .cmt a:hover {
+  color: #4db2ec;
+}
+/*# sourceMappingURL=style.css.map */

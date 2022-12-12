@@ -1,0 +1,48 @@
+@import "../../styles/variable";
+.wrapper-modern {
+    padding-bottom: 40px;
+    .box-modern {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        .column-modern {
+            width: 50%;
+            margin-right: 16px;
+            &:last-child {
+                margin-right: 0;
+            }
+            .item {
+                padding-right: 0;
+                margin-bottom: 22px;
+                .img {
+                    height: 110px;
+                }
+                .title {
+                    a {
+                        font-size: 13px;
+                        font-weight: 500;
+                        line-height: 16px;
+                    }
+                }
+                .author-box,
+                .description {
+                    display: none;
+                }
+                &:hover {
+                    .title {
+                        color: $blue-color;
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .img-banner {
+        margin-top: 40px;
+        img {
+            margin: 0 auto;
+        }
+    }
+}

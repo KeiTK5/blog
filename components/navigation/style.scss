@@ -1,0 +1,22 @@
+@import "../../styles/variable";
+.box-navigation {
+    display: flex;
+    padding: 24px 0 0 0;
+    .arrow {
+        display: block;
+        margin-right: 8px;
+        border: 1px solid #b7b7b7;
+        cursor: pointer;
+        i {
+            padding: 4px;
+            color: #b7b7b7;
+        }
+        &:hover {
+            background: $yellow-color;
+            border: 1px solid transparent;
+            i {
+                color: white;
+            }
+        }
+    }
+}

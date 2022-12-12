@@ -1,0 +1,24 @@
+.article {
+    .wrapper-article {
+        padding-bottom: 40px;
+        .box-article {
+            display: flex;
+            padding-top: 24px;
+            .item-article {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                .item {
+                    .description {
+                        display: none;
+                    }
+                }
+                &:last-child {
+                    .item {
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

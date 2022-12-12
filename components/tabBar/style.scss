@@ -1,0 +1,287 @@
+@import "../../styles/variable";
+
+.tab-bar {
+    padding: 16px 0 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .tab-item {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            cursor: pointer;
+            .item {
+                position: relative;
+                padding: 0 16px 8px 16px;
+                &.active {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        opacity: 1;
+                        width: 100%;
+                        height: 4px;
+                        background: $blue-color;
+                        top: calc(100% + 4px);
+                        left: 0;
+                    }
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    opacity: 0;
+                    width: 0;
+                    height: 4px;
+                    background: $blue-color;
+                    top: calc(100% + 4px);
+                    left: 0;
+                    transition: 0.3s ease all;
+                }
+                &:hover {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        opacity: 1;
+                        width: 100%;
+                        height: 4px;
+                        background: $blue-color;
+                        top: calc(100% + 4px);
+                        left: 0;
+                    }
+                }
+            }
+
+            &:hover {
+                .menu {
+                    display: flex;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 20px;
+                        top: -16px;
+                        left: 0;
+                        background: transparent;
+                        z-index: 5;
+                    }
+                }
+            }
+            .menu {
+                position: absolute;
+                top: calc(100% + 10px);
+                left: 50%;
+                transform: translateX(-50%);
+                display: none;
+                padding: 16px;
+                background: white;
+                width: 1398px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                .menu-box {
+                    width: 100%;
+                    &:first-child {
+                        border-right: 1px solid #cecece;
+                        width: 20%;
+                    }
+                    &:last-child {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 80%;
+                    }
+                    .menu-item {
+                        font-weight: 500;
+                        text-transform: none;
+                        text-align: right;
+                        padding: 4px 16px;
+                        font-size: 14px;
+                        &.active {
+                            color: $blue-color;
+                        }
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                    .menu-card {
+                        padding: 0 12px;
+                        text-align: left;
+                        width: 25%;
+                        &:hover {
+                            .menu-title {
+                                color: $blue-color;
+                            }
+                        }
+                        .menu-title {
+                            font-size: 16px;
+                            text-transform: none;
+                            padding: 12px 0;
+                        }
+                        .menu-date {
+                            text-transform: none;
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #6e6e6e;
+                        }
+                        .menu-img {
+                            height: 180px;
+                            position: relative;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                            .tem {
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                                font-size: 10px;
+                                font-weight: 400;
+                                padding: 2px 8px;
+                                text-transform: none;
+                                background: rgb(66, 66, 66);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                .menu-gadgets {
+                    display: flex;
+                    .menu-item {
+                        font-weight: 500;
+                        text-transform: none;
+                        text-align: right;
+                        padding: 4px 16px;
+                        font-size: 14px;
+                        &.active {
+                            color: $blue-color;
+                        }
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                    .menu-card {
+                        padding: 0 12px;
+                        text-align: left;
+                        width: 25%;
+                        &:hover {
+                            .menu-title {
+                                color: $blue-color;
+                            }
+                        }
+                        .menu-title {
+                            font-size: 16px;
+                            text-transform: none;
+                            padding: 12px 0;
+                            &:hover {
+                                color: $blue-color;
+                            }
+                        }
+                        .menu-date {
+                            text-transform: none;
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #6e6e6e;
+                        }
+                        .menu-img {
+                            height: 180px;
+                            position: relative;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                            .tem {
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                                font-size: 10px;
+                                font-weight: 400;
+                                padding: 2px 8px;
+                                text-transform: none;
+                                background: rgb(66, 66, 66);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            &.features {
+                position: relative;
+                .menu-features {
+                    width: 300px;
+                    position: absolute;
+                    top: calc(100% + 16px);
+                    padding: 16px 32px;
+                    background: white;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    display: none;
+                    left: 0;
+                    .item-fea {
+                        padding: 4px 0;
+                        font-weight: 400;
+                        font-size: 14px;
+                        text-transform: none;
+                        text-align: left;
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 20px;
+                        top: -20px;
+                        left: 0;
+                        background: transparent;
+                    }
+                }
+                &:hover {
+                    .menu-features {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-search {
+        position: relative;
+        z-index: 1;
+        .search {
+            cursor: pointer;
+        }
+        .box-search {
+            position: absolute;
+            padding: 24px;
+            top: calc(100% + 8px);
+            right: 0;
+            left: auto;
+            background: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            width: 600px;
+            margin-left: auto;
+            transition: 0.3s ease all;
+            transform: translate3d(0, 20px, 0);
+            opacity: 0;
+            visibility: hidden;
+            &.active {
+                visibility: visible;
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+            input {
+                outline: none;
+                border: none;
+                left: auto;
+                border-bottom: 1px solid rgba(100, 100, 111, 0.2);
+                padding: 8px;
+                width: 100%;
+            }
+        }
+    }
+}

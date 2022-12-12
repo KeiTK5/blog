@@ -1,0 +1,59 @@
+@import "../../styles/variable";
+.wrapper-life-style {
+    padding-bottom: 40px;
+    .box-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid $green-color;
+        .nav-life {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .item-life-text {
+                padding: 0 15px;
+                font-size: 13px;
+                padding: 0 15px;
+                font-weight: 500;
+                color: #767676;
+                cursor: pointer;
+                .text-life {
+                    &:hover {
+                        color: $green-color;
+                    }
+                }
+            }
+        }
+    }
+    .box-life {
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        .item-life {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            .item {
+                padding: 0;
+                &:hover {
+                    .title {
+                        color: $green-color;
+                    }
+                }
+            }
+            &:first-child {
+                padding-right: 16px;
+            }
+            .item-sub-life {
+                margin-top: 24px;
+                .item-thump {
+                    &:hover {
+                        .box-title {
+                            color: $green-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

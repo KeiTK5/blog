@@ -1,0 +1,59 @@
+.wrapper-modern {
+  padding-bottom: 40px;
+}
+
+.wrapper-modern .box-modern {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+}
+
+.wrapper-modern .box-modern .column-modern {
+  width: 50%;
+  margin-right: 16px;
+}
+
+.wrapper-modern .box-modern .column-modern:last-child {
+  margin-right: 0;
+}
+
+.wrapper-modern .box-modern .column-modern .item {
+  padding-right: 0;
+  margin-bottom: 22px;
+}
+
+.wrapper-modern .box-modern .column-modern .item .img {
+  height: 110px;
+}
+
+.wrapper-modern .box-modern .column-modern .item .title a {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.wrapper-modern .box-modern .column-modern .item .author-box,
+.wrapper-modern .box-modern .column-modern .item .description {
+  display: none;
+}
+
+.wrapper-modern .box-modern .column-modern .item:hover .title {
+  color: #4db2ec;
+}
+
+.wrapper-modern .box-modern .column-modern .item:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper-modern .img-banner {
+  margin-top: 40px;
+}
+
+.wrapper-modern .img-banner img {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

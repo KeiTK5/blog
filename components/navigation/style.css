@@ -1,0 +1,28 @@
+.box-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 0 0 0;
+}
+
+.box-navigation .arrow {
+  display: block;
+  margin-right: 8px;
+  border: 1px solid #b7b7b7;
+  cursor: pointer;
+}
+
+.box-navigation .arrow i {
+  padding: 4px;
+  color: #b7b7b7;
+}
+
+.box-navigation .arrow:hover {
+  background: #f9c100;
+  border: 1px solid transparent;
+}
+
+.box-navigation .arrow:hover i {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

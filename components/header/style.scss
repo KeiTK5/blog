@@ -1,0 +1,18 @@
+.header {
+    padding: 24px 0 8px 0;
+    .wrapper-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo {
+            width: 272px;
+            height: 90px;
+            margin-right: auto;
+            img {
+                width: 100% !important;
+                height: auto !important;
+                object-fit: cover;
+            }
+        }
+    }
+}

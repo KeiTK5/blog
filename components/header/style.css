@@ -1,0 +1,29 @@
+.header {
+  padding: 24px 0 8px 0;
+}
+
+.header .wrapper-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .wrapper-logo .logo {
+  width: 272px;
+  height: 90px;
+  margin-right: auto;
+}
+
+.header .wrapper-logo .logo img {
+  width: 100% !important;
+  height: auto !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,315 @@
+.trending {
+  padding: 24px 0 48px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.trending .wrapper-trend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 450px;
+}
+
+.trending .wrapper-trend .box-trend {
+  width: 50% !important;
+  height: 100%;
+  position: relative;
+}
+
+.trending .wrapper-trend .box-trend:first-child {
+  padding-right: 2px;
+}
+
+.trending .wrapper-trend .box-trend:last-child {
+  padding-left: 2px;
+}
+
+.trending .wrapper-trend .box-trend .item-trend {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.trending .wrapper-trend .box-trend .item-trend::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.trending .wrapper-trend .box-trend .item-trend img {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trending .wrapper-trend .box-trend .item-trend:hover img {
+  scale: 1.1;
+}
+
+.trending .wrapper-trend .box-trend .item-trend:hover .box-content .item-tem {
+  background: #4db2ec;
+}
+
+.trending .wrapper-trend .box-trend .item-trend .box-content {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  z-index: 5;
+}
+
+.trending .wrapper-trend .box-trend .item-trend .box-content .item-tem {
+  padding: 2px 8px;
+  color: white;
+  background: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.trending .wrapper-trend .box-trend .item-trend .box-content .item-title {
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.trending .wrapper-trend .box-trend .item-trend .box-content .item-sign {
+  font-size: 12px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trending .wrapper-trend .box-trend .item-trend .box-content .item-sign .item-author {
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  position: relative;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small:last-child {
+  padding-top: 4px;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small:hover img {
+  scale: 1.1;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small:hover .box-content .item-tem {
+  background: #4db2ec;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small .box-content {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  z-index: 5;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small .box-content .item-tem {
+  padding: 2px 8px;
+  color: white;
+  background: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small .box-content .item-title {
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small .box-content .item-sign {
+  font-size: 12px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trending .wrapper-trend .box-trend .box-trend-small .item-trend-small .box-content .item-sign .item-author {
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small:first-child {
+  margin-right: 4px;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small:hover img {
+  scale: 1.1;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small:hover .box-content .item-tem {
+  background: #4db2ec;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small .box-content {
+  position: absolute;
+  bottom: 2px;
+  left: 16px;
+  right: 16px;
+  z-index: 5;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small .box-content .item-tem {
+  padding: 2px 8px;
+  color: white;
+  background: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small .box-content .item-title {
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small .box-content .item-sign {
+  font-size: 12px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trending .wrapper-trend .box-trend .trend-sub .item-trend-small .box-content .item-sign .item-author {
+  margin-right: 8px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
