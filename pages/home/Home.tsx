@@ -5,6 +5,7 @@ import Trending from "../../components/trending/Trending";
 
 function HomePage() {
     const [visible, setVisible] = useState(false);
+    const isBrowser = () => typeof window !== 'undefined';
 
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
@@ -14,6 +15,10 @@ function HomePage() {
             setVisible(false);
         }
     };
+   
+    if (isBrowser()) { //Only add the event listener client-side
+        window.addEventListener("scroll", toggleVisible);
+    }
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -22,7 +27,7 @@ function HomePage() {
         });
     };
 
-    window.addEventListener("scroll", toggleVisible);
+    
 
     return (
         <div className="main-page">

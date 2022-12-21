@@ -1,4 +1,9 @@
 .columns-left {
   width: 65%;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 768px) {
+  .columns-left {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

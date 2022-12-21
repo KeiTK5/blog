@@ -9,6 +9,9 @@
                 flex-direction: column;
                 width: 50%;
                 .item {
+                    .img{
+                        height: 164px;
+                    }
                     .description {
                         display: none;
                     }

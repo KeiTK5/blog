@@ -1,41 +1,46 @@
 @import "../../styles/variable";
+@import "../../styles/mixin";
 .wrapper-modern {
     padding-bottom: 40px;
     .box-modern {
-        display: flex;
-        justify-content: space-between;
         padding-top: 24px;
-        .column-modern {
-            width: 50%;
-            margin-right: 16px;
-            &:last-child {
-                margin-right: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+        @include Responsive(XS) {
+            grid-template-columns: 1fr;
+        }
+        .item {
+            padding-right: 0;
+            .img {
+                height: 110px;
+                @include Responsive(XS) {
+                    height: auto;
+                }
             }
-            .item {
-                padding-right: 0;
-                margin-bottom: 22px;
-                .img {
-                    height: 110px;
+            .title {
+                a {
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
+            }
+            .author-box,
+            .description {
+                display: none;
+            }
+            &:hover {
                 .title {
-                    a {
-                        font-size: 13px;
-                        font-weight: 500;
-                        line-height: 16px;
-                    }
+                    color: $blue-color;
                 }
-                .author-box,
-                .description {
-                    display: none;
-                }
-                &:hover {
-                    .title {
-                        color: $blue-color;
-                    }
-                }
-                &:last-child {
-                    margin-bottom: 0;
-                }
+            }
+            &:last-child {
+                margin-bottom: 0;
             }
         }
     }

@@ -19,37 +19,33 @@ function Trending() {
                         </Link>
                     </div>
                 </div>
-                <div className="box-trend">
-                    <div className="box-trend-small">
-                        <div className="item-trend-small">
-                            <Link href="/">
-                                <img src="/images/trending-2.jpg" alt="" />
-                                <div className="box-content">
-                                    <div className="item-tem">gadgets</div>
-                                    <div className="item-title">Game Changing Virtual Reality Console Hits the Market</div>
-                                </div>
-                            </Link>
-                        </div>
+                <div className="box-trend trending-grid">
+                    <div className="item-trend-small">
+                        <Link href="/">
+                            <img src="/images/trending-2.jpg" alt="" />
+                            <div className="box-content">
+                                <div className="item-tem">gadgets</div>
+                                <div className="item-title">Game Changing Virtual Reality Console Hits the Market</div>
+                            </div>
+                        </Link>
                     </div>
-                    <div className="box-trend-small trend-sub">
-                        <div className="item-trend-small">
-                            <Link href="/">
-                                <img src="/images/trending-3.jpg" alt="" />
-                                <div className="box-content">
-                                    <div className="item-tem">travel</div>
-                                    <div className="item-title">Discover the Most Magical Sunset in Santorini</div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="item-trend-small">
-                            <Link href="/">
-                                <img src="/images/trending-4.jpg" alt="" />
-                                <div className="box-content">
-                                    <div className="item-tem">reviews</div>
-                                    <div className="item-title">Computer Filters Noise to Make You a Better Listener</div>
-                                </div>
-                            </Link>
-                        </div>
+                    <div className="item-trend-small">
+                        <Link href="/">
+                            <img src="/images/trending-3.jpg" alt="" />
+                            <div className="box-content">
+                                <div className="item-tem">travel</div>
+                                <div className="item-title">Discover the Most Magical Sunset in Santorini</div>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="item-trend-small">
+                        <Link href="/">
+                            <img src="/images/trending-4.jpg" alt="" />
+                            <div className="box-content">
+                                <div className="item-tem">reviews</div>
+                                <div className="item-title">Computer Filters Noise to Make You a Better Listener</div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

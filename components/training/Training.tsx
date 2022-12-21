@@ -21,7 +21,7 @@ function Training() {
                             </div>
                             <div className="desc-train">
                                 We woke reasonably late following the feast and free flowing wine the night before. After gathering ourselves and our
-                                packs, we headed down to our homestay family’s small dining...
+                                packs, we headed down to our homestay family's small dining...
                             </div>
                         </div>
                     </div>

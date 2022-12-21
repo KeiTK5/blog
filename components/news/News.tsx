@@ -17,17 +17,7 @@ function News() {
                         </div>
                         <div className="item-news">
                             <a href="#" className="text-news">
-                                Style Hunter
-                            </a>
-                        </div>
-                        <div className="item-news">
-                            <a href="#" className="text-news">
                                 Vogue
-                            </a>
-                        </div>
-                        <div className="item-news">
-                            <a href="#" className="text-news">
-                                Health & Fitness
                             </a>
                         </div>
                         <div className="item-news">

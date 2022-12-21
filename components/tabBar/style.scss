@@ -1,7 +1,7 @@
 @import "../../styles/variable";
 
 .tab-bar {
-    padding: 16px 0 6px 0;
+    padding: 32px 0 6px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,9 @@
             cursor: pointer;
             .item {
                 position: relative;
+                font-family: "Open Sans", "Open Sans Regular", sans-serif;
                 padding: 0 16px 8px 16px;
+                font-size: 14px;
                 &.active {
                     &::after {
                         position: absolute;
@@ -99,6 +101,7 @@
                         text-align: right;
                         padding: 4px 16px;
                         font-size: 14px;
+                        font-family: "Open Sans", "Open Sans Regular", sans-serif;
                         &.active {
                             color: $blue-color;
                         }

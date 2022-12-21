@@ -1,79 +1,51 @@
 .stay-connect {
   margin-bottom: 64px;
 }
-
 .stay-connect .wrapper-stay .box-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 24px 0 0 0;
   margin-bottom: 47px;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social {
   margin-bottom: 10px;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social:hover .follow-social {
   color: #abb8c3;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .icon-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   cursor: pointer;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .icon-social i {
   margin-right: 16px;
   font-size: 38px;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .icon-social .bxl-youtube {
   color: red;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .icon-social .bxl-meta {
   color: #1da5f5;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .icon-social .bxl-twitter {
   color: aqua;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .icon-social .follow-social {
   font-size: 12px;
   font-weight: 600;
   text-align: left;
 }
-
 .stay-connect .wrapper-stay .box-social .item-social .info-social .actions-social {
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .stay-connect .wrapper-stay .background-stay img {
   margin: 0 auto;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

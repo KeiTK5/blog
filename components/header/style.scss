@@ -1,17 +1,62 @@
 .header {
     padding: 24px 0 8px 0;
+
     .wrapper-logo {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+
         .logo {
             width: 272px;
             height: 90px;
-            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
                 width: 100% !important;
                 height: auto !important;
                 object-fit: cover;
+            }
+        }
+        .newspaper {
+            img {
+                width: 100% !important;
+                height: auto !important;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.header-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+        background: #222222;
+        .wrapper-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .wrapper-menu,
+            .wrapper-search {
+                max-height: 24px;
+                cursor: pointer;
+                i {
+                    color: white;
+                    font-size: 24px;
+                }
             }
         }
     }

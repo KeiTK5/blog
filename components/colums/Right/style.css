@@ -1,5 +1,11 @@
-.right-columns {
+.columns-right {
   width: 35%;
   padding-left: 48px;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 768px) {
+  .columns-right {
+    width: 100% !important;
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

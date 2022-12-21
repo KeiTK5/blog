@@ -14,8 +14,6 @@ function Popular() {
                         <ItemSub content="What Do I Need to Make It in the World of Business?" image="popular-2" />
                         <ItemSub content="Ecommerce Brands Tend to Create Strong Communities" image="popular-3" />
                         <ItemSub content="Study 2020: Fake Engagement is Only Half the Problem" image="popular-1" />
-                        <ItemSub content="What Do I Need to Make It in the World of Business?" image="popular-2" />
-                        <ItemSub content="Ecommerce Brands Tend to Create Strong Communities" image="popular-3" />
                     </div>
                     <Button />
                 </div>

@@ -6,7 +6,7 @@ import StayConnect from "../../stay-connect/StayConnect";
 
 function Right() {
     return (
-        <div className="right-columns">
+        <div className="columns-right">
             <StayConnect />
             <Modern />
             <Holiday />

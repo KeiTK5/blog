@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,UAAU;CAkBtB;;AApBD,AAGI,eAHW,CAGX,MAAM,CAAC;EACH,OAAO,EAAE,KAAK;EACd,YAAY,EAAE,GAAG;EACjB,MAAM,EAAE,iBAAiB;EACzB,MAAM,EAAE,OAAO;CAYlB;;AAnBL,AAQQ,eARO,CAGX,MAAM,CAKF,CAAC,CAAC;EACE,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,OAAO;CACjB;;AAXT,AAYQ,eAZO,CAGX,MAAM,AASD,MAAM,CAAC;EACJ,UAAU,ECZP,OAAO;EDaV,MAAM,EAAE,qBAAqB;CAIhC;;AAlBT,AAeY,eAfG,CAGX,MAAM,AASD,MAAM,CAGH,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;CACf",
-    "sources": [
-        "style.scss",
-        "../../styles/_variable.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["style.scss","style.css","../../styles/_variable.scss"],"names":[],"mappings":"AACA;EACI,aAAA;EACA,mBAAA;ACAJ;ADCI;EACI,cAAA;EACA,iBAAA;EACA,yBAAA;EACA,eAAA;ACCR;ADAQ;EACI,YAAA;EACA,cAAA;ACEZ;ADAQ;EACI,mBEZG;EFaH,6BAAA;ACEZ;ADDY;EACI,YAAA;ACGhB","file":"style.css"}
