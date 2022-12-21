@@ -44,6 +44,7 @@ function Modern() {
         if (width < 480) {
             return modern?.slice(0, 3);
         }
+        return modern
     };
     return (
         <div ref={componentRef} className="modern">
