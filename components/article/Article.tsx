@@ -22,7 +22,7 @@ function Article() {
                         <Item image="article-8" title="Luxurious Four-Bedroom House with Roman Stone Bath House" />
                     </div>
                 </div>
-                <Button />
+                <Button/>
             </div>
         </div>
     );

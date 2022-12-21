@@ -54,7 +54,7 @@ function Modern() {
                         <Item key={item.id} image={item.image} title={item.title} />
                     ))}
                 </div>
-                <Button bgBtn="#222" />
+                <Button/>
                 <div className="img-banner">
                     <img src="/images/stay.jpg" alt="" />
                 </div>

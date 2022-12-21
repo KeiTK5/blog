@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 
-interface Props {
-    bgBtn: string;
-}
-function Button({ bgBtn }: Props) {
+function Button() {
     return (
         <div className="box-navigation">
             <div className="arrow">
