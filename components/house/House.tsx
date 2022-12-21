@@ -13,7 +13,7 @@ function House() {
                     <Item image="house-2" title="Scandinavian Boho Three-bed Decorated with Neutral Tones" />
                     <Item image="house-3" title="Luxurious Four-Bedroom House with Roman Stone Bath House" />
                 </div>
-                <Button bgBtn="#5d7987" />
+                <Button/>
             </div>
         </div>
     );
