@@ -1,25 +1,25 @@
+@import "../../styles/mixin";
 .article {
     .wrapper-article {
         padding-bottom: 40px;
         .box-article {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
             padding-top: 24px;
-            .item-article {
-                display: flex;
-                flex-direction: column;
-                width: 50%;
-                .item {
-                    .img{
-                        height: 164px;
-                    }
-                    .description {
-                        display: none;
+            @include Responsive(XS) {
+                grid-template-columns: 1fr;
+            }
+            .item {
+                padding: 0;
+                .img {
+                    height: 164px;
+                    @include Responsive(XS) {
+                        height: auto;
                     }
                 }
-                &:last-child {
-                    .item {
-                        padding-right: 0;
-                    }
+                .description {
+                    display: none;
                 }
             }
         }

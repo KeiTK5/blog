@@ -7,7 +7,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .wrapper-modern .box-modern {
     grid-template-columns: 1fr;
   }
@@ -18,7 +18,7 @@
 .wrapper-modern .box-modern .item .img {
   height: 110px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .wrapper-modern .box-modern .item .img {
     height: auto;
   }
@@ -32,6 +32,11 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper-modern .box-modern .item .title a {
+    font-size: 16px;
+  }
 }
 .wrapper-modern .box-modern .item .author-box,
 .wrapper-modern .box-modern .item .description {

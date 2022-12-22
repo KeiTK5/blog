@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Item from "../item/Item";
 import ItemSub from "../item/itemSub/ItemSub";
 import Button from "../navigation/Button";
 import Tem from "../tem/Tem";
 
 function Lifestyle() {
+    const [active, setActive] = useState(false);
+    const openMenu = () => {
+        setActive(!active);
+    };
     return (
         <div className="life-style">
             <div className="wrapper-life-style">
                 <div className="box-nav">
                     <Tem title="LIFESTYLE NEWS" backgroundColor="#3a863d" color="white" borderBottom="#3a863d" />
-                    <div className="nav-life">
+                    <div className="nav-life-mobile" onClick={openMenu}>
+                        <i className="bx bx-menu"></i>
+                    </div>
+                    <div className={`nav-life ${active ? "active" : ""}`}>
                         <div className="item-life-text">
                             <a href="#" className="text-life">
                                 All

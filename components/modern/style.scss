@@ -7,14 +7,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 16px;
-        @include Responsive(XS) {
+        @include Responsive(SM) {
             grid-template-columns: 1fr;
         }
         .item {
             padding-right: 0;
             .img {
                 height: 110px;
-                @include Responsive(XS) {
+                @include Responsive(SM) {
                     height: auto;
                 }
             }
@@ -28,6 +28,9 @@
                     -webkit-box-orient: vertical;
                     overflow: hidden;
                     text-overflow: ellipsis;
+                    @include Responsive(SM) {
+                        font-size: 16px;
+                    }
                 }
             }
             .author-box,
