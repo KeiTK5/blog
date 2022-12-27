@@ -1,0 +1,70 @@
+.box-share-social {
+  display: flex;
+  align-items: center;
+}
+.box-share-social .box-share {
+  position: relative;
+  border: 1px solid #e9e9e9;
+  border-radius: 2px;
+  padding: 10px 13px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32px;
+}
+.box-share-social .box-share .wall {
+  padding: 0 8px;
+  color: #cfcfcf;
+}
+.box-share-social .box-share::after, .box-share-social .box-share::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.box-share-social .box-share::after {
+  border-width: 8px 0 8px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+.box-share-social .box-share::before {
+  border-width: 9px 0 9px 11px;
+  border-color: transparent transparent transparent #c4c4c4;
+}
+.box-share-social .box-social-magazine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-share-social .box-social-magazine .icon-magazine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  color: white;
+}
+.box-share-social .box-social-magazine .icon-magazine .bx {
+  border-radius: 2px;
+  transition: all 0.35s ease;
+  padding: 10px;
+  cursor: pointer;
+}
+.box-share-social .box-social-magazine .icon-magazine .bx.bxl-meta {
+  background: #516eab;
+}
+.box-share-social .box-social-magazine .icon-magazine .bx.bxl-twitter {
+  background: #29c5f6;
+}
+.box-share-social .box-social-magazine .icon-magazine .bx.bxl-pinterest-alt {
+  background: #ca212a;
+}
+.box-share-social .box-social-magazine .icon-magazine .bx.bxl-whatsapp {
+  background: #7bbf6a;
+}
+.box-share-social .box-social-magazine .icon-magazine .bx:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */

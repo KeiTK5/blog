@@ -1,15 +1,17 @@
 import React from "react";
 
 interface Props {
-    image: string;
+    image?: string;
     content: string;
 }
 function ItemSub({ image, content }: Props) {
     return (
         <div className="item-thump">
-            <div className="img">
-                <img src={`/images/${image}.jpg`} alt="" />
-            </div>
+            {image && (
+                <div className="img">
+                    <img src={`/images/${image}.jpg`} alt="" />
+                </div>
+            )}
             <div className="box-title">
                 <div className="title">
                     <a href="#">{content}</a>

@@ -17,9 +17,12 @@ interface ScaleOff {
 }
 
 function LayoutComponent({ children }: Props) {
+    const [visible, setVisible] = useState<Boolean>(false);
     const [scale, setScale] = useState<Boolean>(false);
     const [search, setSearch] = useState<Boolean>(false);
     const [menu, setMenu] = useState<Boolean>(false);
+
+    const isBrowser = () => typeof window !== "undefined";
 
     const openSearch = () => {
         setScale(!scale);
@@ -46,6 +49,27 @@ function LayoutComponent({ children }: Props) {
         }
     };
 
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop;
+        if (scrolled > 300) {
+            setVisible(true);
+        } else if (scrolled <= 300) {
+            setVisible(false);
+        }
+    };
+
+    if (isBrowser()) {
+        //Only add the event listener client-side
+        window.addEventListener("scroll", toggleVisible);
+    }
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <>
             <Head>
@@ -57,8 +81,12 @@ function LayoutComponent({ children }: Props) {
             <div className="container" style={overflowScroll()}>
                 <div className={`wrapper-container${scale ? " scale" : ""}`}>
                     <Header openSearch={openSearch} openMenu={openMenu} />
-                    <div className="max-width">{children}</div>
+                    {/* <div className="max-width">{children}</div> */}
+                    {children}
                     <Footer />
+                    <div className="scroll" style={{ opacity: visible ? 1 : 0 }}>
+                        <i className="bx bx-chevron-up" onClick={scrollToTop}></i>
+                    </div>
                 </div>
 
                 <div className={`menu-mobile-search${scale && search ? " active" : ""}`}>

@@ -1,0 +1,23 @@
+.wrapper-must-read {
+    .box-must-read {
+        margin-top: 24px;
+        .item-thump {
+            .img {
+                display: none;
+            }
+            .box-title {
+                padding: 0;
+            }
+            &:hover .box-title {
+                color: $blue-color;
+            }
+        }
+    }
+    .box-navigation {
+        .arrow {
+            &:hover {
+                background: $blue-color;
+            }
+        }
+    }
+}

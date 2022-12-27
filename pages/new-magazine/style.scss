@@ -1,0 +1,366 @@
+@import "../../styles/mixin";
+@import "../../styles/variable";
+@import "../../components/breadcrumb/style.scss";
+
+.new-magazine {
+    padding: 24px 0;
+    .container-magazine {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        @include Responsive(SM) {
+            flex-direction: column;
+        }
+        .content-magazine {
+            flex: 1;
+            .header-content-magazine {
+                .box-title-magazine {
+                    display: flex;
+                    flex-direction: column;
+                    .main-title-magazine {
+                        font-size: 38px;
+                        line-height: 1.2;
+                        margin-bottom: 24px;
+                    }
+                    .box-author-magazine {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 24px;
+                        .author-magazine {
+                            display: flex;
+                            align-items: center;
+                            .avatar-author-magazine {
+                                border-radius: 50%;
+                                height: 24px;
+                                width: 24px;
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                    object-fit: cover;
+                                }
+                            }
+                            .name-author-magazine,
+                            .date-release-magazine {
+                                font-size: 12px;
+                                color: $grey-color-2;
+                            }
+
+                            .name-author-magazine {
+                                margin: 0 10px 0 6px;
+                                .author-name {
+                                    font-weight: 600;
+                                    color: black;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .views-magazine {
+                            display: flex;
+                            align-items: center;
+                            .view,
+                            .mess {
+                                display: flex;
+                                align-items: center;
+                                font-size: 13px;
+                                margin-right: 24px;
+                                color: $grey-color-2;
+                                i {
+                                    margin-right: 4px;
+                                }
+                            }
+                            .mess {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .box-share-social {
+                        position: unset;
+                        padding: 0;
+                    }
+                }
+            }
+            .body-content-magazine {
+                margin-bottom: 48px;
+                .image-magazine {
+                    margin: 24px 0;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                    .des-image-magazine {
+                        font-size: 12px;
+                        color: $grey-color-2;
+                        padding-top: 10px;
+                        font-style: italic;
+                    }
+                }
+                .box-single-magazine {
+                    .single-content {
+                        max-width: 600px;
+                        font-size: 16px;
+                        line-height: 1.74;
+                        word-spacing: 3px;
+                        letter-spacing: 0.5px;
+                        margin: 0 auto 24px;
+                        color: #222;
+                        &.strong {
+                            font-weight: 600;
+                        }
+                    }
+                    .sub-image-magazine {
+                        max-width: 313px;
+                        float: right;
+                        margin: 0 0 24px 24px;
+                        @include Responsive(SM) {
+                            float: unset;
+                            margin: 0 auto 24px;
+                        }
+                        @include Responsive(MD) {
+                            max-width: 240px;
+                        }
+                        img {
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                        }
+                        .des-image-magazine {
+                            font-size: 12px;
+                            color: $grey-color-2;
+                            padding-top: 10px;
+                            font-style: italic;
+                        }
+                    }
+                    .blockquote {
+                        // margin: 40px 5% 38px; mobile
+                        font-style: italic;
+                        text-align: center;
+                        margin: 24px 0;
+                        p {
+                            font-size: 32px;
+                            line-height: 40px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            color: #4db2ec;
+                            word-wrap: break-word;
+                        }
+                    }
+                }
+            }
+
+            .box-share-social {
+                position: relative;
+                padding: 32px 0;
+                &::after,
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 1px;
+                    left: 0;
+                    background: #ebebeb;
+                }
+                &::after {
+                    top: 0;
+                }
+                &::before {
+                    bottom: 0;
+                }
+            }
+
+            .box-navigation-magazine {
+                margin: 32px 0;
+
+                .item-navigation-magazine {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 32px;
+                    margin-bottom: 8px;
+                    .content-article-magazine {
+                        font-size: 15px;
+                        color: #222;
+                        line-height: 21px;
+                        cursor: pointer;
+                        &:last-child {
+                            text-align: right;
+                        }
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                    .article-navigation {
+                        font-size: 12px;
+                        color: #747474;
+                        &:last-child {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+
+            .author-card-magazine {
+                border: 1px solid #ededed;
+                border-radius: 2px;
+                padding: 24px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-bottom: 32px;
+                @include Responsive(SM) {
+                    flex-direction: column;
+                    text-align: center;
+                    align-items: center;
+                }
+                .avatar-author-card {
+                    max-width: 120px;
+                    max-height: 120px;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: inherit;
+                    margin-right: 24px;
+                    @include Responsive(SM) {
+                        margin-right: 0;
+                        margin-bottom: 24px;
+                    }
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                        border-radius: inherit;
+                    }
+                }
+                .info-author-card {
+                    .name-author-card {
+                        margin: 0 0 8px;
+                        font-size: 16px;
+                        line-height: 21px;
+                        font-weight: 700;
+                        color: #222;
+                        cursor: pointer;
+                        transition: 0.25s ease all;
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                    .link-author-card {
+                        margin-bottom: 6px;
+                        font-size: 12px;
+                        font-style: italic;
+                        line-height: 21px;
+                        color: #444;
+                        cursor: pointer;
+                        transition: 0.25s ease all;
+
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                    .des-author-card {
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.8px;
+                        padding-bottom: 16px;
+                    }
+                    .social-author-card {
+                        .item-social-card {
+                            margin-right: 14px;
+                            @include Responsive(SM) {
+                                margin: 0 8px;
+                            }
+                            cursor: pointer;
+                            .bx {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .box-related-article {
+                margin-bottom: 32px;
+                .box-item-related {
+                    margin-top: 24px;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 16px;
+                    .item {
+                        .title {
+                            a {
+                                font-size: 14px;
+                                line-height: unset;
+                            }
+                            &:hover {
+                                color: $blue-color;
+                            }
+                        }
+                        .img {
+                            height: auto;
+                            img {
+                                width: 100%;
+                                height: auto;
+                                object-fit: cover;
+                            }
+                        }
+                        .author-box,
+                        .description {
+                            display: none;
+                        }
+                    }
+                }
+                .box-navigation {
+                    padding-top: 10px;
+                    .arrow {
+                        &:hover {
+                            background: $blue-color;
+                            opacity: 0.6;
+                        }
+                    }
+                }
+            }
+
+            .box-comment-article {
+                .box-user-comment {
+                    margin-top: 24px;
+                    display: flex;
+                    align-items: flex-start;
+                    .avatar-user-comment {
+                        height: 60px;
+                        width: 60px;
+                        margin-right: 20px;
+                        border-radius: 2px;
+                        img {
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                            border-radius: inherit;
+                        }
+                    }
+                    .des-user-comment {
+                        .header-user-comment {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 6px;
+                            .name-user-comment {
+                                font-weight: 600;
+                                font-size: 16px;
+                                margin-right: 16px;
+                            }
+                            .date-user-comment {
+                                font-size: 12px;
+                                color: #747474;
+                            }
+                        }
+                        .body-user-comment {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .close-comment {
+                    margin: 20px 0 24px 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
