@@ -84,7 +84,7 @@ function LayoutComponent({ children }: Props) {
                     {/* <div className="max-width">{children}</div> */}
                     {children}
                     <Footer />
-                    <div className="scroll" style={{ opacity: visible ? 1 : 0 }}>
+                    <div className="scroll" style={{ opacity: visible ? 1 : 0, visibility: visible ? "visible" : "hidden"}}>
                         <i className="bx bx-chevron-up" onClick={scrollToTop}></i>
                     </div>
                 </div>

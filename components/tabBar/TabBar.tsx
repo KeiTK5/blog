@@ -26,88 +26,84 @@ function TabBar() {
                             <div className="menu-item">Style Hunter</div>
                             <div className="menu-item">Vogue</div>
                         </div>
-                        <div className="menu-box">
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
                         </div>
                     </ul>
                 </div>
-                <div className="tab-item ">
+                <div className="tab-item">
                     <a href="#" className="item">
                         gadgets <i className="bx bx-chevron-down"></i>
                     </a>
                     <ul className="menu">
-                        <div className="menu-gadgets">
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
-                            <div className="menu-card">
-                                <div className="menu-img">
-                                    <img src="/images/menu-1.jpg" alt="" />
-                                    <div className="tem">Vogue</div>
-                                </div>
-                                <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
-                                <div className="menu-date">August 7, 2019</div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
+                        </div>
+                        <div className="menu-card">
+                            <div className="menu-img">
+                                <img src="/images/article-1.jpg" alt="" />
+                                <div className="tem">Vogue</div>
                             </div>
+                            <div className="menu-title">Fashion Outfit Ideas From the Biggest Instagram Influencers</div>
+                            <div className="menu-date">August 7, 2019</div>
                         </div>
                     </ul>
                 </div>

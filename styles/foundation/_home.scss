@@ -1,0 +1,10 @@
+.main-page {
+    .wrapper-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        @include Responsive(SM) {
+            flex-direction: column;
+        }
+    }
+}

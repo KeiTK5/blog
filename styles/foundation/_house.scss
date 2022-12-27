@@ -1,0 +1,49 @@
+.house {
+    .wrapper-house {
+        padding-bottom: 40px;
+
+        .box-house {
+            padding-top: 24px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            @include Responsive(XS) {
+                flex-direction: column;
+            }
+            .item {
+                width: 33.333333333%;
+                margin-right: 16px;
+                padding: 0;
+                @include Responsive(XS) {
+                    width: 100%;
+                    margin: 0 0 16px 0;
+                }
+                .title {
+                    a {
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 19px;
+                    }
+                }
+                .img {
+                    height: 150px;
+                    @include Responsive(XS) {
+                        height: auto;
+                    }
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover {
+                    .title {
+                        color: #5d7987;
+                    }
+                }
+                .author-box,
+                .description {
+                    display: none;
+                }
+            }
+        }
+    }
+}

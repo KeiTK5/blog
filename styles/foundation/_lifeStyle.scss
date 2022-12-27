@@ -1,0 +1,93 @@
+
+.wrapper-life-style {
+    padding-bottom: 40px;
+    .box-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid $green-color;
+        position: relative;
+
+        .nav-life {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @include Responsive(XS) {
+                display: none;
+                &.active {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    top: calc(100% + 2px);
+                    right: 0;
+                    z-index: 200;
+                    padding: 16px 8px;
+                    background: white;
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                }
+            }
+
+            .item-life-text {
+                padding: 0 15px;
+                font-size: 13px;
+                padding: 0 15px;
+                font-weight: 500;
+                color: #767676;
+                @include Responsive(XS) {
+                    padding: 4px 15px;
+                }
+                cursor: pointer;
+                .text-life {
+                    &:hover {
+                        color: $green-color;
+                    }
+                }
+            }
+        }
+        .nav-life-mobile {
+            display: none;
+            i{
+                font-size: 20px;
+            }
+            @include Responsive(XS) {
+                display: block;
+            }
+        }
+    }
+    .box-life {
+        padding-top: 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        @include Responsive(XS) {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        .item-life {
+            display: flex;
+            flex-direction: column;
+            @include Responsive(XS) {
+                width: 100%;
+            }
+            .item {
+                padding: 0;
+                &:hover {
+                    .title {
+                        color: $green-color;
+                    }
+                }
+            }
+            .item-sub-life {
+                margin-top: 24px;
+                .item-thump {
+                    &:hover {
+                        .box-title {
+                            color: $green-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

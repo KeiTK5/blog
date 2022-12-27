@@ -1,0 +1,26 @@
+.article {
+    .wrapper-article {
+        padding-bottom: 40px;
+        .box-article {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            padding-top: 24px;
+            @include Responsive(XS) {
+                grid-template-columns: 1fr;
+            }
+            .item {
+                padding: 0;
+                .img {
+                    height: 164px;
+                    @include Responsive(XS) {
+                        height: auto;
+                    }
+                }
+                .description {
+                    display: none;
+                }
+            }
+        }
+    }
+}
