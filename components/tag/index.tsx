@@ -1,16 +1,27 @@
 import React from "react";
 
-interface Props {
+interface Tag {
+    id: number;
     title: string;
     background: string;
+    color?: string;
+    border?: string;
+}
+
+interface Props {
+    tag: Tag[];
 }
 
 export default function Tag(props: Props) {
-    const { title, background } = props;
+    const { tag } = props;
     return (
-        <div className="box-tag">
-            <div className="tag" style={{ background: background }}>
-                {title}
+        <div className="tag-category">
+            <div className="box-tag">
+                {tag?.map((item) => (
+                    <div className="tag" key={item.id} style={{ background: item.background, color: item.color, border: `1px solid ${item.border}` }}>
+                        {item.title}
+                    </div>
+                ))}
             </div>
         </div>
     );

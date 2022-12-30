@@ -5,6 +5,16 @@ import Item from "../../components/item/Item";
 import MustRead from "../../components/must-read";
 import Tag from "../../components/tag";
 import Tem from "../../components/tem/Tem";
+import TitleCategory from "../../components/title-category";
+
+const tag = [
+    {
+        id: 1,
+        title: "New Look",
+        color: "white",
+        background: "#000",
+    },
+];
 
 export default function Slug() {
     const router = useRouter();
@@ -15,13 +25,11 @@ export default function Slug() {
             <div className="background-category" style={{ backgroundImage: `url("/images/slug-1.jpg")` }}>
                 <div className="max-width">
                     <Breadcrumb />
-                    <div className="box-title-category">
-                        <div className="title-category">New Look</div>
-                        <div className="tag-category">
-                            <Tag title="New Look" background="#000" />
-                        </div>
-                        <div className="des-category">Custom category description. You must learn one thing. The world was made to be free in. Give up all the other worlds Except the one in which you belong.</div>
+                    <TitleCategory title="New Look" color="white" />
+                    <div className="tag-category">
+                        <Tag tag={tag} />
                     </div>
+                    <div className="des-category">Custom category description. You must learn one thing. The world was made to be free in. Give up all the other worlds Except the one in which you belong.</div>
                 </div>
             </div>
             <div className="max-width">

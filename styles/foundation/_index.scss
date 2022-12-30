@@ -1,7 +1,7 @@
 @import "../utils/mixin";
 @import "../utils/variable";
 @import "home", "magazine", "category", "tag", "article", "breadcrumb", "left", "right", "footer", "header", "holiday", "house", "item", "layout", "lifeStyle", "modern", "mustRead", "button", "news", "popular", "socialShare", "stayConnect", "tabBar",
-    "tem", "training", "trending";
+    "tem", "training", "trending", "life-style", "title-category", "author";
 
 html,
 body {
@@ -70,4 +70,11 @@ img {
 .scroll:hover i {
     background: black;
     color: white;
+}
+
+.des-category {
+    color: #777;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 21px;
 }

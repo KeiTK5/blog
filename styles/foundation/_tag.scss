@@ -1,19 +1,25 @@
-.box-tag {
-    margin: 16px 0;
-    cursor: pointer;
-    &:hover {
-        opacity: 0.7;
-    }
-    .tag {
-        pointer-events: auto;
-        font-size: 10px;
-        display: inline-block;
-        margin: 0 5px 5px 0;
-        line-height: 1;
-        color: rgb(255, 255, 255);
-        padding: 6px 13px;
-        white-space: nowrap;
-        position: relative;
-        vertical-align: middle;
+.tag-category {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .box-tag {
+        margin: 16px 0;
+        cursor: pointer;
+        .tag {
+            pointer-events: auto;
+            font-size: 10px;
+            display: inline-block;
+            margin: 0 5px 5px 0;
+            line-height: 1;
+            color: rgb(255, 255, 255);
+            border-radius: 2px;
+            padding: 6px 13px;
+            white-space: nowrap;
+            position: relative;
+            vertical-align: middle;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
     }
 }

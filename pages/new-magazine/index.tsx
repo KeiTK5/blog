@@ -7,6 +7,16 @@ import SocialShare from "../../components/social-share";
 import Tag from "../../components/tag";
 import Tem from "../../components/tem/Tem";
 
+const tag = [
+    {
+        id: 1,
+        title: "Fashion",
+        color: "white",
+        background: "#dd3333",
+        border: "#ddd",
+    },
+];
+
 function index() {
     return (
         <div className="new-magazine">
@@ -14,7 +24,7 @@ function index() {
                 <div className="content-magazine">
                     <div className="header-content-magazine">
                         <Breadcrumb />
-                        <Tag background="#dd3333" title="Fashion"/>
+                        <Tag tag={tag} />
                         <div className="box-title-magazine">
                             <div className="main-title-magazine">WordPress News Magazine Charts the Most Chic and Fashionable Women of New York City</div>
                             <div className="box-author-magazine">
