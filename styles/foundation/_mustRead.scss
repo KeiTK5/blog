@@ -7,6 +7,10 @@
             }
             .box-title {
                 padding: 0;
+                .title{
+                    font-weight: 600;
+                    line-height: 1.5;
+                }
             }
             &:hover .box-title {
                 color: $blue-color;

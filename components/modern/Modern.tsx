@@ -59,7 +59,7 @@ function Modern() {
                     ))}
                 </div>
                 <Button />
-                <div className="img-banner">
+                <div className="background-stay">
                     <img src="/images/stay.jpg" alt="" />
                 </div>
             </div>

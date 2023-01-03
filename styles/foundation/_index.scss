@@ -1,7 +1,7 @@
 @import "../utils/mixin";
 @import "../utils/variable";
 @import "home", "magazine", "category", "tag", "article", "breadcrumb", "left", "right", "footer", "header", "holiday", "house", "item", "layout", "lifeStyle", "modern", "mustRead", "button", "news", "popular", "socialShare", "stayConnect", "tabBar",
-    "tem", "training", "trending", "life-style", "title-category", "author";
+    "tem", "training", "trending", "life-style", "title-category", "author", "video";
 
 html,
 body {
@@ -21,6 +21,16 @@ a {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+}
+
+.wrapper-row {
+    margin: 24px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @include Responsive(SM) {
+        flex-direction: column;
+    }
 }
 
 .max-width {
@@ -77,4 +87,14 @@ img {
     font-style: italic;
     font-size: 14px;
     line-height: 21px;
+}
+
+.background-stay{
+    width: 90%;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }

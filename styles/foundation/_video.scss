@@ -1,0 +1,69 @@
+.video {
+    .container-video {
+        .content-video {
+            .header-content-video {
+                margin-top: 24px;
+                .box-title-category {
+                    margin-top: 32px;
+                }
+                .des-category {
+                    padding-right: 30%;
+                    margin: 16px 0;
+                }
+            }
+            .body-content-video {
+                margin-bottom: 24px;
+                .wrapper-video-intro {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 4px;
+                    height: 400px;
+                    @include Responsive(SM) {
+                        flex-direction: column;
+                        height: auto;
+                        gap: 8px;
+                    }
+                    .item-main {
+                        .box-icon-play {
+                            display: flex;
+                        }
+                        .comment {
+                            display: none;
+                        }
+                    }
+                }
+                .wrapper-row {
+                    .columns-left {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 16px;
+                        @include Responsive(XS) {
+                            grid-template-columns: 1fr;
+                            gap: 10px;
+                        }
+                        .item {
+                            padding: 0;
+                            .box-icon-play {
+                                display: flex;
+                            }
+                            .description {
+                                display: none;
+                            }
+                            &:hover {
+                                .title {
+                                    color: $blue-color;
+                                }
+                            }
+                        }
+                    }
+                    .columns-right {
+                        .background-stay {
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 function TabBar() {
     const [search, setSearch] = useState(false);
 
@@ -15,9 +16,9 @@ function TabBar() {
                     </a>
                 </div>
                 <div className="tab-item ">
-                    <a href="#" className="item">
+                    <Link href="/category/a" className="item">
                         fashion <i className="bx bx-chevron-down"></i>
-                    </a>
+                    </Link>
                     <ul className="menu">
                         <div className="menu-box">
                             <div className="menu-item active">All</div>
@@ -108,14 +109,14 @@ function TabBar() {
                     </ul>
                 </div>
                 <div className="tab-item ">
-                    <a href="#" className="item">
+                    <Link href="/life-style" className="item">
                         lifestyle
-                    </a>
+                    </Link>
                 </div>
                 <div className="tab-item ">
-                    <a href="#" className="item">
+                    <Link href="/video" className="item">
                         video
-                    </a>
+                    </Link>
                 </div>
                 <div className="tab-item features">
                     <a href="#" className="item">
