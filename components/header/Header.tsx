@@ -29,13 +29,15 @@ function Header({ openSearch, openMenu }: Props) {
                 <div className="max-width">
                     <div className="wrapper-header">
                         <div className="wrapper-menu" onClick={openMenu}>
-                            <i className="bx bx-menu"></i>
+                            <i className="bx bx-menu" />
                         </div>
-                        <div className="logo">
-                            <img src="/images/logo-mobile.png" alt="Picture of the author" />
-                        </div>
+                        <Link href="/">
+                            <div className="logo">
+                                <img src="/images/logo-mobile.png" alt="Picture of the author" />
+                            </div>
+                        </Link>
                         <div className="wrapper-search" onClick={openSearch}>
-                            <i className="bx bx-search"></i>
+                            <i className="bx bx-search" />
                         </div>
                     </div>
                 </div>

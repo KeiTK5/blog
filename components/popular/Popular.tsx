@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import ItemSub from "../item/itemSub/ItemSub";
 import Button from "../navigation/Button";
@@ -25,15 +26,15 @@ function Popular() {
                         <div className="comment">
                             <div className="cmt">
                                 <span>Mary Dill on </span>
-                                <a href="#">Another Big Apartment Project Slated for Broad Ripple Company</a>
+                                <Link href="#">Another Big Apartment Project Slated for Broad Ripple Company</Link>
                             </div>
                             <div className="cmt">
                                 <span>Georgia Summer on </span>
-                                <a href="#">Patricia Urquiola Coats Transparent Glas Tables for Livings</a>
+                                <Link href="#">Patricia Urquiola Coats Transparent Glas Tables for Livings</Link>
                             </div>
                             <div className="cmt">
                                 <span>Michael Brain on </span>
-                                <a href="#">Top Fashion Trends to Look for in Every Important Collection</a>
+                                <Link href="#">Top Fashion Trends to Look for in Every Important Collection</Link>
                             </div>
                         </div>
                     </div>

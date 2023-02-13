@@ -38,7 +38,7 @@ export default function index() {
                         </div>
 
                         <div className="wrapper-row">
-                            <div className="columns-left ">
+                            <div className="columns-left">
                                 <Item title="Workout Routine for Big Forearms and a Crushing Grip" image="video-3" tag="video" />
                                 <Item title="The Best of Vocal Deep House Chill Out Music Mix 2020" image="video-4" tag="video" />
                                 <Item title="Video Receipes: How to Make a Perfect Caffe Macchiato" image="video-5" tag="video" />

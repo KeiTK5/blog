@@ -26,7 +26,9 @@ function index() {
                         <Breadcrumb />
                         <Tag tag={tag} />
                         <div className="box-title-magazine">
-                            <div className="main-title-magazine">WordPress News Magazine Charts the Most Chic and Fashionable Women of New York City</div>
+                            <div className="main-title-magazine">
+                                WordPress News Magazine Charts the Most Chic and Fashionable Women of New York City
+                            </div>
                             <div className="box-author-magazine">
                                 <span className="author-magazine">
                                     <div className="avatar-author-magazine">
@@ -39,11 +41,11 @@ function index() {
                                 </span>
                                 <div className="views-magazine">
                                     <span className="view">
-                                        <i className="bx bxs-quote-alt-right"></i>
+                                        <i className="bx bxs-quote-alt-right" />
                                         <span className="amount">40612</span>
                                     </span>
                                     <span className="mess">
-                                        <i className="bx bxs-chat"></i>
+                                        <i className="bx bxs-chat" />
                                         <span className="amount">1</span>
                                     </span>
                                 </div>
@@ -59,10 +61,17 @@ function index() {
 
                         <div className="box-single-magazine">
                             <div className="single-content">
-                                We woke reasonably late following the feast and free flowing wine the night before. After gathering ourselves and our packs, we headed down to our homestay family's small dining room for breakfast.
+                                We woke reasonably late following the feast and free flowing wine the night before. After gathering ourselves and our
+                                packs, we headed down to our homestay family's small dining room for breakfast.
                             </div>
-                            <div className="single-content strong">Refreshingly, what was expected of her was the same thing that was expected of Lara Stone: to take a beautiful picture.</div>
-                            <div className="single-content">We were making our way to the Rila Mountains, where we were visiting the Rila Monastery where we enjoyed scrambled eggs, toast, mekitsi, local jam and peppermint tea.</div>
+                            <div className="single-content strong">
+                                Refreshingly, what was expected of her was the same thing that was expected of Lara Stone: to take a beautiful
+                                picture.
+                            </div>
+                            <div className="single-content">
+                                We were making our way to the Rila Mountains, where we were visiting the Rila Monastery where we enjoyed scrambled
+                                eggs, toast, mekitsi, local jam and peppermint tea.
+                            </div>
                         </div>
 
                         <div className="image-magazine">
@@ -72,27 +81,39 @@ function index() {
 
                         <div className="box-single-magazine">
                             <div className="single-content">
-                                We wandered the site with busloads of other tourists, yet strangely the place did not seem crowded. I'm not sure if it was the sheer size of the place, or whether the masses congregated in one area and didn't venture
-                                far from the main church, but I didn't feel overwhelmed by tourists in the monastery.
+                                We wandered the site with busloads of other tourists, yet strangely the place did not seem crowded. I'm not sure if it
+                                was the sheer size of the place, or whether the masses congregated in one area and didn't venture far from the main
+                                church, but I didn't feel overwhelmed by tourists in the monastery.
                             </div>
                             <div className="sub-image-magazine">
                                 <img src="/images/magazine-2.jpg" alt="" />
                                 <p className="des-image-magazine">City Guide for Vienna</p>
                             </div>
-                            <div className="single-content">Headed over Lions Bridge and made our way to the Sofia Synagogue, then sheltered in the Central Market Hall until the recurrent (but short-lived) mid-afternoon rain passed.</div>
-                            <div className="single-content">Feeling refreshed after an espresso, we walked a short distance to the small but welcoming Banya Bashi Mosque, then descended into the ancient Serdica complex.</div>
-                            <div className="single-content">We were exhausted after a long day of travel, so we headed back to the hotel and crashed.</div>
                             <div className="single-content">
-                                I had low expectations about Sofia as a city, but after the walking tour I absolutely loved the place. This was an easy city to navigate, and it was a beautiful city – despite its ugly, staunch and stolid
-                                communist-built surrounds. Sofia has a very average facade as you enter the city, but once you lose yourself in the old town area, everything changes.
+                                Headed over Lions Bridge and made our way to the Sofia Synagogue, then sheltered in the Central Market Hall until the
+                                recurrent (but short-lived) mid-afternoon rain passed.
+                            </div>
+                            <div className="single-content">
+                                Feeling refreshed after an espresso, we walked a short distance to the small but welcoming Banya Bashi Mosque, then
+                                descended into the ancient Serdica complex.
+                            </div>
+                            <div className="single-content">
+                                We were exhausted after a long day of travel, so we headed back to the hotel and crashed.
+                            </div>
+                            <div className="single-content">
+                                I had low expectations about Sofia as a city, but after the walking tour I absolutely loved the place. This was an
+                                easy city to navigate, and it was a beautiful city – despite its ugly, staunch and stolid communist-built surrounds.
+                                Sofia has a very average facade as you enter the city, but once you lose yourself in the old town area, everything
+                                changes.
                             </div>
                             <div className="blockquote">
                                 <p>IF YOU HAVE IT, YOU CAN MAKE ANYTHING LOOK GOOD</p>
                             </div>
 
                             <div className="single-content">
-                                Clothes can transform your mood and confidence. Fashion moves so quickly that, unless you have a strong point of view, you can lose integrity. I like to be real. I don't like things to be staged or fussy. I think I'd
-                                go mad if I didn't have a place to escape to. You have to stay true to your heritage, that's what your brand is about.
+                                Clothes can transform your mood and confidence. Fashion moves so quickly that, unless you have a strong point of view,
+                                you can lose integrity. I like to be real. I don't like things to be staged or fussy. I think I'd go mad if I didn't
+                                have a place to escape to. You have to stay true to your heritage, that's what your brand is about.
                             </div>
                         </div>
                     </div>
@@ -118,20 +139,21 @@ function index() {
                             <div className="name-author-card">Armin Vans</div>
                             <div className="link-author-card">http://www.tagdiv.com</div>
                             <div className="des-author-card">
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo. Donec urna lacus gravida ac vulputate sagittis tristique vitae lectus. Nullam rhoncus tortor at dignissim vehicula.
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo. Donec urna lacus gravida ac
+                                vulputate sagittis tristique vitae lectus. Nullam rhoncus tortor at dignissim vehicula.
                             </div>
                             <div className="social-author-card">
                                 <span className="item-social-card">
-                                    <i className="bx bxl-meta"></i>
+                                    <i className="bx bxl-meta" />
                                 </span>
                                 <span className="item-social-card">
-                                    <i className="bx bxl-instagram"></i>
+                                    <i className="bx bxl-instagram" />
                                 </span>
                                 <span className="item-social-card">
-                                    <i className="bx bxl-twitter"></i>
+                                    <i className="bx bxl-twitter" />
                                 </span>
                                 <span className="item-social-card">
-                                    <i className="bx bxl-youtube"></i>
+                                    <i className="bx bxl-youtube" />
                                 </span>
                             </div>
                         </div>
@@ -157,7 +179,9 @@ function index() {
                                     <span className="name-user-comment">Armin Vans</span>
                                     <span className="date-user-comment">August 14, 2019 At 5:47 am</span>
                                 </div>
-                                <div className="body-user-comment">Every outfit is carefully chosen by our designated fashion expert. Check them out!</div>
+                                <div className="body-user-comment">
+                                    Every outfit is carefully chosen by our designated fashion expert. Check them out!
+                                </div>
                             </div>
                         </div>
                         <div className="close-comment">Comments are closed.</div>

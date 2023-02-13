@@ -41,7 +41,7 @@ function Modern() {
     ];
 
     const sliceData = (width: number) => {
-        console.log(width);
+        // console.log(width);
 
         if (width < 768) {
             return modern?.slice(0, 4);

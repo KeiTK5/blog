@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface Props {
@@ -14,7 +15,7 @@ function ItemSub({ image, content }: Props) {
             )}
             <div className="box-title">
                 <div className="title">
-                    <a href="#">{content}</a>
+                    <Link href="/new-magazine">{content}</Link>
                 </div>
                 <div className="author">
                     <div className="post-date"> August 7, 2019</div>

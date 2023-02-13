@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import Item from "../item/Item";
 import ItemSub from "../item/itemSub/ItemSub";
@@ -15,33 +16,33 @@ function Lifestyle() {
                 <div className="box-nav">
                     <Tem title="LIFESTYLE NEWS" backgroundColor="#3a863d" color="white" borderBottom="#3a863d" />
                     <div className="nav-life-mobile" onClick={openMenu}>
-                        <i className="bx bx-menu"></i>
+                        <i className="bx bx-menu" />
                     </div>
                     <div className={`nav-life ${active ? "active" : ""}`}>
                         <div className="item-life-text">
-                            <a href="#" className="text-life">
+                            <Link href="#" className="text-life">
                                 All
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-life-text">
-                            <a href="#" className="text-life">
+                            <Link href="#" className="text-life">
                                 Travel
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-life-text">
-                            <a href="#" className="text-life">
+                            <Link href="#" className="text-life">
                                 Recipes
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-life-text">
-                            <a href="#" className="text-life">
+                            <Link href="#" className="text-life">
                                 Health & Fitness
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-life-text">
-                            <a href="#" className="text-life">
+                            <Link href="#" className="text-life">
                                 Music
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ function StayConnect() {
                     <div className="item-social">
                         <div className="info-social">
                             <div className="icon-social">
-                                <i className="bx bxl-meta"></i>
+                                <i className="bx bxl-meta" />
                                 <div className="follow-social">22,034 Fans</div>
                             </div>
                             <div className="actions-social">like</div>
@@ -18,7 +18,7 @@ function StayConnect() {
                     <div className="item-social">
                         <div className="info-social">
                             <div className="icon-social">
-                                <i className="bx bxl-twitter"></i>
+                                <i className="bx bxl-twitter" />
                                 <div className="follow-social">3,587 Followers</div>
                             </div>
                             <div className="actions-social">follow</div>
@@ -27,7 +27,7 @@ function StayConnect() {
                     <div className="item-social">
                         <div className="info-social">
                             <div className="icon-social">
-                                <i className="bx bxl-youtube"></i>
+                                <i className="bx bxl-youtube" />
                                 <div className="follow-social">20,300 Subscribers</div>
                             </div>
                             <div className="actions-social">subscribe</div>

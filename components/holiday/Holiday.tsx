@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Button from "../navigation/Button";
 import Tem from "../tem/Tem";
@@ -10,7 +11,7 @@ function Holiday() {
                 <div className="box-holiday">
                     <div className="item-holiday">
                         <div className="title-train">
-                            <a href="#">Everyone Should Travel for Their Favorite Foods</a>
+                            <Link href="#">Everyone Should Travel for Their Favorite Foods</Link>
                         </div>
                         <div className="author-box">
                             <div className="author">Armin Vans </div> - <div className="date-post"> August 7, 2019</div>
@@ -26,7 +27,7 @@ function Holiday() {
                     </div>
                     <div className="item-holiday">
                         <div className="title-train">
-                            <a href="#">Everyone Should Travel for Their Favorite Foods</a>
+                            <Link href="#">Everyone Should Travel for Their Favorite Foods</Link>
                         </div>
                         <div className="author-box">
                             <div className="author">Armin Vans </div> - <div className="date-post"> August 7, 2019</div>

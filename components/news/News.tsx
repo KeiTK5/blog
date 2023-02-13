@@ -3,6 +3,7 @@ import Tem from "../tem/Tem";
 import Item from "../item/Item";
 import ItemSub from "../item/itemSub/ItemSub";
 import Button from "../navigation/Button";
+import Link from "next/link";
 function News() {
     return (
         <div className="news">
@@ -11,37 +12,45 @@ function News() {
                     <Tem title="DON'T MISS" backgroundColor="#f9c100" color="black" borderBottom="#f9c100" />
                     <div className="nav-news">
                         <div className="item-news">
-                            <a href="#" className="text-news">
+                            <Link href="#" className="text-news">
                                 All
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-news">
-                            <a href="#" className="text-news">
+                            <Link href="#" className="text-news">
                                 Vogue
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-news">
-                            <a href="#" className="text-news">
+                            <Link href="#" className="text-news">
                                 Travel
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-news">
-                            <a href="#" className="text-news">
+                            <Link href="#" className="text-news">
                                 Gadgets
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-news">
-                            <a href="#" className="text-news">
-                                More <i className="bx bx-chevron-down"></i>
-                            </a>
+                            <div className="text-news">
+                                <div className="menu-desktop">
+                                    More <i className="bx bx-chevron-down"></i>
+                                </div>
+                                <div className="menu-mobile">
+                                    <i className="bx bx-menu"></i>
+                                </div>
+                            </div>
                             <div className="menu-sub-news">
                                 <div className="item-sub-news">Racing</div>
                                 <div className="item-sub-news">Reviews</div>
                                 <div className="item-sub-news">Mobile Phone</div>
-                                <div className="item-sub-news">Photography</div>
                                 <div className="item-sub-news">Make It Modern</div>
+                                <div className="item-sub-news">Photography</div>
                                 <div className="item-sub-news">Decorating</div>
                                 <div className="item-sub-news">Recipes</div>
+                                <div className="item-sub-news hide">Vogue</div>
+                                <div className="item-sub-news hide">Travel</div>
+                                <div className="item-sub-news hide">Gadgets</div>
                             </div>
                         </div>
                     </div>

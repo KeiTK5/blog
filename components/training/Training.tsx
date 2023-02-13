@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import Button from "../navigation/Button";
 import Tem from "../tem/Tem";
 
 function Training() {
@@ -14,7 +14,7 @@ function Training() {
                         </div>
                         <div className="content-train">
                             <div className="title-train">
-                                <a href="#">KTM Marchetti Signs with Larranaga and Zanotti for Next Season</a>
+                                <Link href="#">KTM Marchetti Signs with Larranaga and Zanotti for Next Season</Link>
                             </div>
                             <div className="author-box">
                                 <div className="author">Armin Vans </div> - <div className="date-post"> August 7, 2019</div>
@@ -31,7 +31,7 @@ function Training() {
                         </div>
                         <div className="content-train">
                             <div className="title-train">
-                                <a href="#">Celebrating 25 Years Since Italy’s First Ever Touring Inclusion</a>
+                                <Link href="#">Celebrating 25 Years Since Italy’s First Ever Touring Inclusion</Link>
                             </div>
                             <div className="author-box">
                                 <div className="author">Armin Vans </div> - <div className="date-post"> August 7, 2019</div>
@@ -48,7 +48,7 @@ function Training() {
                         </div>
                         <div className="content-train">
                             <div className="title-train">
-                                <a href="#">Rumors, Gossip and Unfounded Truths: Every Moto Release Story</a>
+                                <Link href="#">Rumors, Gossip and Unfounded Truths: Every Moto Release Story</Link>
                             </div>
                             <div className="author-box">
                                 <div className="author">Armin Vans </div> - <div className="date-post"> August 7, 2019</div>
@@ -65,7 +65,7 @@ function Training() {
                         </div>
                         <div className="content-train">
                             <div className="title-train">
-                                <a href="#">Are you Ready? Complete Recap of the Streer Rally Action Shootout</a>
+                                <Link href="#">Are you Ready? Complete Recap of the Streer Rally Action Shootout</Link>
                             </div>
                             <div className="author-box">
                                 <div className="author">Armin Vans </div> - <div className="date-post"> August 7, 2019</div>

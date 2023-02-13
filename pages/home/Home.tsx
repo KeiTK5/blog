@@ -7,11 +7,8 @@ import { useResize } from "../../hooks/useResize";
 const WidthContext = createContext(0);
 
 function HomePage() {
-
     const refWidth = useRef(null);
     const { width } = useResize(refWidth);
-
-    
 
     return (
         <WidthContext.Provider value={width}>
@@ -21,7 +18,6 @@ function HomePage() {
                     <Left />
                     <Right />
                 </div>
-                
             </div>
         </WidthContext.Provider>
     );

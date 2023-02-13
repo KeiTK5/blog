@@ -4,10 +4,10 @@ function Button() {
     return (
         <div className="box-navigation">
             <div className="arrow">
-                <i className="bx bx-chevron-left"></i>
+                <i className="bx bx-chevron-left" />
             </div>
             <div className="arrow">
-                <i className="bx bx-chevron-right"></i>
+                <i className="bx bx-chevron-right" />
             </div>
         </div>
     );
